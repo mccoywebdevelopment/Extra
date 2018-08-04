@@ -1,0 +1,243 @@
+@media screen and (max-width: 766px) {
+    .card {
+        width: 100%;
+    }
+    .Center {
+
+        text-align: center;
+        width: auto;
+
+    }
+    .input-group {
+        width: 100%;
+    }
+    .pull-right, .pull-left {
+        float: none;
+    }
+    #pull-left, #pull-left2 {
+        float: left;
+    }
+    #pull-right, #pull-right2 {
+        float: right;
+    }
+    .cost {
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+    card {
+        width: 100%;
+    }
+    .Center {
+
+        text-align: center;
+        width: auto;
+
+    }
+    .input-group {
+        width: 100%;
+    }
+    .pull-right, .pull-left {
+        float: none;
+    }
+    #pull-left, #pull-left2 {
+        float: none;
+    }
+    #pull-right, #pull-right2 {
+        float: none;
+    }
+    .cost {
+        height: 100%;
+    }
+
+}
+
+.mock-card {
+    background-color: white;
+    width: 100%;
+}
+
+.text-total {
+    font-size: xx-large;
+    font-weight: bold
+}
+
+.text-days {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(255, 38, 0);
+}
+
+.card {
+    width: 78%;
+}
+
+.text-rate {
+    font-weight: bold;
+}
+
+.sub-padding-num {
+    padding-right: 11px;
+}
+
+.cell-gray {
+    background-color: rgb(233, 232, 232);
+    padding: 10px;
+}
+
+.text-padding10 {
+    padding: 10px
+}
+
+.col-lg-9, .col-md-12, .col-sm-12 {
+    height: 100%;
+}
+
+.form-control {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    font-size: large;
+    text-align: center;
+}
+
+button {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+}
+
+.btn-group {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-align: center;
+}
+
+.input-group {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 100%;
+}
+
+.text-padding11 {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.myTitle {
+    font-size: x-large;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.large-btn {
+    font-size: 13px;
+    padding-left: 16%;
+}
+
+p {
+    padding-top: 29px;
+    padding-bottom: 6px;
+}
+
+a {
+    padding-top: 27px;
+    padding-bottom: 11px;
+}
+
+
+
+input {
+    width: 20%
+}
+
+.text-padding11-right {
+    padding-right: 11px;
+}
+
+.text-padding11-left {
+    padding-left: 11px;
+}
+
+.costs {
+    height: 100%;
+}
+
+#lg-btn {
+    height: 100%;
+    font-weight: bold;
+    margin: 0;
+    width:100%;
+
+}
+.launchBtn{
+    width:100%;
+}
+.Center {
+
+    width: auto;
+
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+.red{
+    background-color: red;
+}
+
+
+

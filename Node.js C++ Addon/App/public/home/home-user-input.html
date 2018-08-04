@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="homeStyles.css">
+</head>
+<body>
+    <div class="Center">
+        <div class="container-fluid">
+            <div class="myTitle" style="text-align:center;">
+                Launch Options:
+            </div>
+        </div>
+        <form  method="get">
+        <div class="card container">
+            <div class="row">
+
+
+                <div class="col-lg-2 col-md-3 col-sm-12">
+                    <p>Acceleration:</p>
+                </div>
+
+
+                <div class="col-lg-4 col-md-9  col-sm-12 input-group">
+                    <input name="initial_acceleration" id="input" type="text" required="required" value="23"
+                           class="form-control pull-left" placeholder="0-99 m/s^2">
+                </div>
+
+
+                <div class="col-lg-2 col-md-3 col-sm-12">
+                    <p>Hover Altitude:</p>
+                </div>
+
+                <div class="col-lg-4 col-md-9  col-sm-12 input-group">
+                    <input name="initial_hoveringAlt" id="EndDate input" value="4"
+                           type="text" aria-describedby="End DateHelpBlock" required="required"
+                           class="form-control " placeholder="5-1500m">
+                </div>
+
+
+            </div>
+
+
+            <hr>
+
+            <div class="row">
+
+
+                <div class="col-lg-2 col-md-3 col-sm-12 ">
+                    <p>Hover Count:</p>
+                </div>
+
+                <div class="col-lg-4 col-md-9 col-sm-12  input-group">
+                    <input name="hover_count" id="startTime" type="text" value="5"
+                           required="required" class="form-control" placeholder="__:__">
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-12">
+                    <p>Weight:</p>
+                </div>
+
+                <div class="col-lg-4 col-md-9 col-sm-12 input-group">
+                    <input id="EndTime input" name="initial_weight" type="text" value="7"
+                           aria-describedby="EndTimeHelpBlock" required="required"
+                           class="form-control" placeholder="1000-5000lbs">
+                </div>
+
+
+            </div>
+            <hr>
+            <div class="row">
+
+
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <p>Night theme?</p>
+                </div>
+
+                <div class="col-lg-2 col-md-1 col-sm-6 ">
+                    <div id="pull-right" class="btn-group pull-right" role="group" aria-label="Coverage">
+                        <button type="button" class="btn btn-secondary">Yes</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-1 col-sm-6">
+                    <div id="pull-left" class="btn-group" role="group" aria-label="Coverage">
+                        <button id="no-btn" type="button" class="btn btn-primary">No</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <a class="pull-right"></a>
+                </div>
+
+
+            </div>
+            <hr>
+            <div class="row">
+
+
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <p>Graph type:</p>
+                </div>
+
+                <div class="col-lg-2 col-md-1 col-sm-6">
+                    <div id="pull-right2" class="btn-group pull-right" role="group" aria-label="Fulfillment">
+                        <button type="button" class="btn del del2 btn-secondary">bar</button>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-1 col-sm-6">
+                    <div id="pull-left2" class="btn-group" role="group" aria-label="Fulfillment">
+                        <button id="pickUp" type="button" class="btn btn-primary">line</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <a class="pull-right"></a>
+                </div>
+
+
+            </div>
+            <hr>
+            <div class="row">
+
+
+                <div class="col-lg-2 col-md-3 col-sm-12">
+                    <p>Crew count:</p>
+                </div>
+
+                <div class="col-lg-1 col-md-1 col-sm-12">
+                    <div class="input-group input-lg pull-left">
+                        <input id="Quantity input" name="Quantity" value="1"
+                               type="text" aria-describedby="QuantityHelpBlock"
+                               required="required"
+                               class="form-control">
+                    </div>
+                </div>
+
+
+                <div id="quantityNumber" class="col-lg-9 col-md-8 col-sm-12">
+                    <a class="pull-right"></a>
+                </div>
+
+            </div>
+
+
+            <div class="row costs cell-gray">
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a class="text-days"></a>
+                </div>
+
+
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                    <div class="pull-right">
+                        <span class="text-total "></span><br><span
+                            class="text-rate "></span>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <button  formaction="/myForm" id="lg-btn" name="submit" type="submit" class="btn btn-primary btn-lg
+                    btn-block"><a href="http://localhost:3000/launch" class="launchBtn">LAUNCH</a></button>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+        </form>
+    </div>
+
+</body>
+</html>
