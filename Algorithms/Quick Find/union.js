@@ -220,8 +220,8 @@ var edges= {
 };
 //=================================================MAIN=================================================================
 //NEED TO FIX NOTH CONNECTED SINCE I CHANGE THE INDEX TO BEG W/ 0 INSTEAD OF 1 !!!!!!!!!!!!!!!
-row=20;
-col=20
+row=10;
+col=10
 createGrid(row,col,Node,quickFind);
 quickFind.loadArray(Node,row,col);
 console.log(quickFind.id);
@@ -275,10 +275,11 @@ for(var i=0;i<nodes.length;++i)
 //======================================================================================================================
 function notConnected() {
     console.log("Not connected");
+    alert("It's not connected!")
 }
 function connected() {
     console.log("It's connected");
-    alert("connected");
+    alert("It's connected!");
 }
 
 function createGrid(x,y,nodes,quickFind){
